@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css.css" />
+    <title>viajaLibre.</title>
+</head>
+
+<body>
+
+    <!-- ==================================================-->
+    <!-- ENCABEZADO -->
+    <!-- =================================-->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contáctanos (952.25.62.14) </p>
+    </header>
+
+
+    <nav class="navbar navbar-expand-sm bg-light sticky-top" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <span class="text-primary fs-5 fw-bold">viajaLibre.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipo.html">Equipo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-contacto">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+                    <button class="btn btn-primary btn-primary-outline-success" type="button">Subscríbete</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================================================-->
+    <!-- SLIDER DE IMAGENES -->
+    <!-- =================================-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="slide1">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="slide2">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="slide3">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ==================================================-->
+    <!-- INTRO -->
+    <!-- =================================-->
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Un lugar único para todas tu necesidades<span class="text-primary">
+                Vive la Experiencia</span></h1>
+
+        <p class="p-3 fs-4"><span class="text-primary">viajaLibre.</span>es la agencia donde te ayudamos a encontrar la
+            mejor experiencia.
+            Viajes, tours, experiencias únicas</p>
+    </section>
+
+
+    <!-- ==================================================-->
+    <!-- SERVICIOS -->
+    <!-- =================================-->
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila-1">
+            <div class="col-lg-6 col-med-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/viajes.jpg" alt="desarrollo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Viajes</h3>
+                    <p class="px-4">Presupuestos, opciones, packs...</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-med-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/excursiones.jpg" alt="desarrollo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Excursiones</h3>
+                    <p class="px-4">Por grupos, en pareja, con fines recreativos, culturales, deportivos, educativos,
+                        zonas naturales o rurales... </p>
+                </div>
+            </div>
+        </div>
+        <div class="row w-75 mx-auto servicio-fila-2">
+            <div class="col-lg-6 col-med-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/actividades.jpg" alt="desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Aventuras</h3>
+                    <p class="px-4">Encuentra un día completo de actividades en parques temáticos, deportivos,
+                        culturales...</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/tour.jpg" alt="tour" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Tours</h3>
+                    <p class="px-4">Reserva los tours para conocer cada parte de la ciudad</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================================================-->
+    <!-- ACERCA DE NOSOTROS -->
+    <!-- =================================-->
+
+        <div id="local" class="border-top border-2">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.365970012258!2d-4.426161984470592!3d36.71377097996666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f791772dfcb5%3A0xe480ea18f61d2267!2sAlameda%20de%20Col%C3%B3n%2C%2035%2C%2029001%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1652521748212!5m2!1ses!2ses"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="pt-5"></iframe>
+            <div class="wrapper">
+                <h2>Ubicado en Málaga, España</h2>
+                <h2 class="text-primary mb-4" id=typewriter></h2>
+                <p class="fs-5 text-body">Málaga es una de las ciudades más pobladas de Andalucía y la capital de la
+                    región turística conocida como la Costa del Sol. También es una de las urbes andaluzas con mayor
+                    actividad económica y la quinta de España en este aspecto.</p>
+                <section class="d-flex" id="numeros-local">
+                    <div>
+                        <p class="text-primary fs-5">300</p>
+                        <p>Días de sol</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">100%</p>
+                        <p> Aprobado</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">24°</p>
+                        <p> Temperatura</p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ============================================================-->
+    <!-------------------------- PIE DE PAGINA ------------------------->
+    <!-- ==============================================================-->
+
+
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">viajaLibre. &copy; Todos Los Derechos Reservados 2021</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1"
+                    d="M0,0L60,37.3C120,75,240,149,360,197.3C480,245,600,267,720,245.3C840,224,960,160,1080,160C1200,160,1320,224,1380,256L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path> 
+            </svg>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/mpm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJ0/tY9Ul7kGkf1S0CWuKcCD3818YkeH8QJE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>

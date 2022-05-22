@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css.css" />
+    <title>Equipo</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fw-bold">viajaLibre.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipo.html">Equipo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-contacto">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+                    <button class="btn btn-primary btn-primary-outline-success" type="button">Subscríbete</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño con<span class="text-primary"> Resultados Grandes</span></h1>
+            <p class="fs-4">Siempre buscamos las mejores personas para dar los mejores resultados.
+                Si te sientes preparado, te esperamos para que te unas al equipo. </p>
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid w-50" src="img/equipo.jpg" alt="equipo">
+        </div>
+
+    </section>
+
+      <!-- ==================================================-->
+    <!-- FORMULARIO  -->
+    <!-- =================================-->
+
+    <br><br><br><br><br><br><br>
+    <div class="container-fluid bg-secondary w-100" id="contenedor-formulario">
+    <form action="#" method="GET">
+        <fieldset>
+        <legend>Envíanos tu currículum</legend>
+        <label for="Nombre">Escribe tu nombre: </label>
+        <input type="text" name="Nombre" value="Cristina" id="Nombre" maxlength="16"><br><br>
+
+        <label for="email">Escribe tu email</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <input type="checkbox" name="idiomas" id="español" value="español" checked>
+        <label>español</label>
+        <input type="checkbox" name="idiomas" id="inglés" value="inglés">
+        <label>inglés</label>
+        <input type="checkbox" name="idiomas" id="francés" value="francés">
+        <label>francés</label>
+
+        <br><br>
+
+        <div class="container-fluid w-100">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Selecciona tu comunidad</button>
+                
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Andalucía</a></li>
+                    <li><a href="#" class="dropdown-item">Madrid</a></li>
+                    <li><a href="#" class="dropdown-item">Castilla La Mancha</a></li>
+                </ul>
+            </div>
+
+        <br><br>
+
+        <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                placeholder="Escribe tu Mensaje"></textarea>
+        </div>
+
+        <br><br>
+
+        <input type="file" name="archivo">
+
+        <br><br>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-outline-warning btn-lg">Enviar Mensaje</button>
+        </div>
+    </fieldset>
+    </form>
+</div>
+   <!-- <div class="container-fluid bg-info w-100" id="contenedor-formulario">
+                <form class = "p-30 text-center">
+                    <div id="bg-contacto">
+                            <h2>Contacto</h2>
+                            <p class="fs-5">Ponte en contacto con nosotros</p>
+                                        
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                    </div>
+    
+                    <div class="mb-3">
+                        <input type="input" class="form-control" id="nombre" placeholder="nombre@ejemplo.com">
+                    </div>
+    
+                    <div class="mb-3">
+                        <input type="telf" class="form-control" id="telf" placeholder="Teléfono">
+                    </div>
+    
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                            placeholder="Déjanos tu Mensaje"></textarea>
+                    </div>
+                    <div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-outline-warning btn-lg">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                </form>
+            </div> -->
+</body>
+
+</html>
